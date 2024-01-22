@@ -1,0 +1,25 @@
+.btn{
+
+  padding: 10px 25px 10px 25px;
+  box-shadow: azure;
+  border-radius: 10px;
+  background-color: lightblue;
+}
+
+.my-text{
+  text-align: center;
+  columns: red;
+}
+
+.primary{
+   color:  blue;
+   font-style: italic;
+   font-family: cursive;
+   font-size: 50px;
+}
+
+.secondary{
+  
+  color: lightgray;
+  font-size: 30px;
+}

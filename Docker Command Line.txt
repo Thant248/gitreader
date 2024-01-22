@@ -1,0 +1,39 @@
+Docker Command Line
+
+
+docker pull
+=========
+
+docker pull alpine
+docker images 
+docker images
+docker remove 
+docker rm alpine
+
+docker aspect alpine (aspect)
+
+dokcer image prune (delete all docker images)
+
+docker ps -a (check problems)
+
+docker run --name my-app alpine (run docker)
+
+docker container prune
+
+docker run --name my-app -i -t alpine (i = interface t = terminator) => liunx command
+
+
+docker port binding static dynamic 
+
+-d is static
+-D is dynamic
+
+
+>docker run --name my-app -d -P seqvence/static-site (-P is dynamice port binding)	
+
+
+docker run --name mya-pp -d -p 8080:80  seqvence/static-site (-p is static port binding)
+
+docker container stop my-app(stop)
+
+postsql psql -h localhost -p 8091 -U your_username -d your_database

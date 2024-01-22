@@ -1,0 +1,25 @@
+
+
+<button (click)="updateUser()">Update</button>
+<button c` (click) = "destroy()">Button</button>
+
+
+<br/>
+<br/>
+
+@iF (!isChildDestroyed){
+
+    <app-child [userName]="userName">
+        <div #contentWrapper>foo</div>
+    </app-child>
+}
+
+@iF(isChildDestroyed){
+
+    <div>ChildComponent is Destroy</div>
+
+}
+
+
+
+
